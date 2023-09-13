@@ -29,7 +29,6 @@ ul {
 .header {
     display: flex;
     justify-content: space-between ;
-   
 }
 
 .header-nav {
@@ -57,7 +56,6 @@ ul {
     align-items: flex-start;
 }
 
-
 .justify-content-space-between {
     justify-content: space-between;
 }
@@ -75,8 +73,6 @@ ul {
 .castaway {
     font-size: 24px;
 }
-
-
 
 .promo-text {
     font-size: 70px;
@@ -116,7 +112,6 @@ ul {
 
 .laters-text {
     font-size: 64px;
-    
 }
 
 .btn {
@@ -150,7 +145,6 @@ ul {
     padding: 0 10px;
     font-size: 60px;
     flex:0 0 55%
-    
 }
 
 .img-kol {
@@ -240,6 +234,7 @@ height: 10px;
     flex-wrap: wrap
    
 }
+
 .email-btn {
     color: rgb(18, 138, 138); 
     font-size: 18px;
@@ -292,7 +287,6 @@ height: 10px;
 
 .bk {
     font-size: 36px;
-    
 }
 
 .block_block {
