@@ -5,7 +5,9 @@
     background-color: #363F46;
 }
 
-
+p {
+    font-size: 22px;
+}
 
 .header {
     display: flex;
