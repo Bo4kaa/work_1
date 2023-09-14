@@ -5,6 +5,27 @@
 	border: none;
 }
 
+p {
+    background: inherit;
+    font-size: 22px;
+}
+
+h1 {
+    background: inherit;
+}
+
+h2 {
+    background: inherit;
+}
+
+span {
+    background: inherit;
+}
+
+ul {
+    background: inherit;
+}
+
 *,
 *::before,
 *::after {
