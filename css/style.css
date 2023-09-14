@@ -5,26 +5,7 @@
     background-color: #363F46;
 }
 
-p {
-    background: inherit;
-    font-size: 22px;
-}
 
-h1 {
-    background: inherit;
-}
-
-h2 {
-    background: inherit;
-}
-
-span {
-    background: inherit;
-}
-
-ul {
-    background: inherit;
-}
 
 .header {
     display: flex;
