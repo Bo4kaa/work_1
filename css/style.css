@@ -5,7 +5,17 @@
     background-color: #363F46;
 }
 
+h2 {
+    font-size: 57px;
+}
 
+p {
+    font-size: 22px;
+}
+
+.jacob {
+    font-size: 33px;
+}
 
 .header {
     display: flex;
