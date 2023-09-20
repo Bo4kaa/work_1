@@ -13,6 +13,10 @@ p {
     font-size: 22px;
 }
 
+svg {
+    background-color: #363F46;
+}
+
 .jacob {
     font-size: 33px;
 }
