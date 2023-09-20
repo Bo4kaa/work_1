@@ -334,3 +334,7 @@ height: 10px;
 .cast {
     font-size: 48px;
 }
+
+.block-text ul img {
+    background-color: black ;
+}
