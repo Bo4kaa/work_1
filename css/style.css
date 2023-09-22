@@ -26,13 +26,12 @@ svg {
     justify-content: space-between ;
 }
 
-.header-nav {
-    font-size: 13px;
-}
-
-.header-nav a+a {
-    margin-left: 20px;
+.header-nav{
     color:#fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    gap: 20px;
 }
 
 .header-link:hover  {
@@ -85,6 +84,11 @@ svg {
 
 .flex-lis {
     margin-top: 74px;
+}
+
+.flex-png {
+    display: flex;
+    gap: 10px;
 }
 
 .flex-png a+a {
@@ -329,6 +333,8 @@ height: 10px;
 
 .end-img {
     margin-top: 20px;
+        display: flex;
+    gap: 10px;
 }
 
 .cast {
@@ -337,4 +343,9 @@ height: 10px;
 
 .block-text ul img {
     background-color: black ;
+}
+
+.block-text-ul {
+    display: flex;
+    gap: 5px;
 }
