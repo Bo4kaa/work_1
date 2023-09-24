@@ -5,6 +5,12 @@
     background-color: #363F46;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 h2 {
     font-size: 57px;
 }
@@ -98,7 +104,6 @@ svg {
 .container-mini-boss {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 26px 0;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
@@ -183,7 +188,6 @@ height: 10px;
 .container-no-boss {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 26px 0;
     row-gap: 40px;
     margin-top: 150px
 }
