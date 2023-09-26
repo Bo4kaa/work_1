@@ -1,14 +1,13 @@
 *{ font-family: 'DM Sans', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
     color: #fff;
-    background-color: #363F46;
+    background-color: #191919;
 }
 
 main {
     display: flex;
     flex-direction: column;
     gap: 120px;
+    margin-top: 120px;
 }
 
 h1 {
@@ -24,7 +23,7 @@ p {
 }
 
 svg {
-    background-color: #363F46;
+background: inherit;    
 }
 
 .header {
@@ -51,17 +50,28 @@ svg {
     align-items: center;
 }
 
-.flex-promo{
-    position: relative;
-    left: 20px;
+.promo {
+    display: flex;
+    gap: 54px;
+    justify-content: space-between;
 }
+
+
 
 .flex-lis {
     margin-top: 74px;
 }
 
 .promo-img {
-    flex:0 0 45%
+    width:50%;
+}
+
+.promo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 526px;
+
 }
 
 .flex-png {
@@ -77,7 +87,6 @@ svg {
 
 .header-button{
     justify-content: space-between;
-    margin-top: 50px;
     display: flex;
     align-items: center;
 }
@@ -163,8 +172,6 @@ svg {
 }
 
 .email-block {
-    max-width: 1440px;
-    margin: 0 auto;
     row-gap: 40px;
     background-color: black;
     padding: 40px;
@@ -249,9 +256,6 @@ svg {
 }
 
 .end {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 26px 0;
     row-gap: 40px;
     margin-top: 150px;
     display: flex;
