@@ -1,18 +1,25 @@
 *{ font-family: 'DM Sans', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
     color: #fff;
-    background-color: #363F46;
+    background-color: #191919;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 120px;
+    margin-top: 120px;
+}
+
+h1 {
+    font-size: 70px;
 }
 
 h2 {
     font-size: 57px;
+}
+
+h3 {
+    font-size: 36px;
 }
 
 p {
@@ -20,11 +27,7 @@ p {
 }
 
 svg {
-    background-color: #363F46;
-}
-
-.jacob {
-    font-size: 33px;
+background: inherit;    
 }
 
 .header {
@@ -44,52 +47,28 @@ svg {
     color: rgb(28, 214, 214);
 }
 
-.d-flex {
-    display: flex;
-}
-
-.align-items-center {
-    align-items: center;
-}
-
-.align-items-flex-start {
-    align-items: flex-start;
-}
-
-.justify-content-space-between {
-    justify-content: space-between;
-}
-
-.justify-content-centre {
-    justify-content: center;
-}
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 26px 0;
+    display: flex;
+    align-items: center;
 }
 
-.castaway {
-    font-size: 24px;
-}
-
-.promo-text {
-    font-size: 70px;
-    flex:0 0 45%
-}
-
-.boss {
-    gap: 60px;
+.promo {
+    display: flex;
+    gap: 54px;
+    justify-content: space-between;
 }
 
 .promo-img {
-    flex:0 0 45%
-    
+    width:50%;
 }
 
-.flex-lis {
-    margin-top: 74px;
+.promo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 526px;
 }
 
 .flex-png {
@@ -97,13 +76,7 @@ svg {
     gap: 10px;
 }
 
-.flex-png a+a {
-    margin-left: 17px;
-}
-
 .container-mini-boss {
-    max-width: 1440px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
@@ -111,11 +84,8 @@ svg {
 
 .header-button{
     justify-content: space-between;
-    margin-top: 50px;
-}
-
-.laters-text {
-    font-size: 64px;
+    display: flex;
+    align-items: center;
 }
 
 .btn {
@@ -135,24 +105,11 @@ svg {
     height: 29px;
 }
 
-.inner-list {
-    background-color: black;
-    border-radius: 40px;
-    line-height: 1.33;
-    padding: 10px;
-    width: 1440px;
-    height: 512px;
-}
-
 .sub-title {
     background-color: black;
     padding: 0 10px;
     font-size: 60px;
     flex:0 0 55%
-}
-
-.img-kol {
-height: 10px;
 }
 
 .info {
@@ -162,7 +119,6 @@ height: 10px;
     align-items: flex-start;
     padding: 40px;
     border-radius: 32px;
-    
 }
 
 .info__text {
@@ -185,17 +141,6 @@ height: 10px;
     font-size: 17px;
 }
 
-.container-no-boss {
-    max-width: 1440px;
-    margin: 0 auto;
-    row-gap: 40px;
-    margin-top: 150px
-}
-
-.container-x {
-    flex-direction: column;
-}
-
 .content {
     font-size: 70px;
     display: flex;
@@ -203,31 +148,24 @@ height: 10px;
     row-gap: 40px;
 }
 
-
-.promo-content {
-    flex:0 0 45%
-}
-
 .bbb {
     color: rgb(18, 138, 138); 
     display: flex;
     justify-content: flex-start;
-    margin-top: 20px;
+    font-size: 15px;
 }
 
-.img-ctrela {
+.img-arrow {
     width: fit-content;
 }
 
-.container-email {
-    max-width: 1440px;
-    margin: 0 auto;
+.email-block {
     row-gap: 40px;
     background-color: black;
     padding: 40px;
     border-radius: 32px;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .email-sub {
@@ -276,7 +214,6 @@ height: 10px;
 
 .container-blocks {
     flex-direction: row;
-    
 }
 
 .block-text {
@@ -288,11 +225,7 @@ height: 10px;
     height: 300px;
 }
 
-.bk {
-    font-size: 36px;
-}
-
-.block_block {
+.container-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(auto, 1fr));
     gap: 20px;
@@ -307,21 +240,16 @@ height: 10px;
 }
 
 .end {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 26px 0;
     row-gap: 40px;
-    margin-top: 150px
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .endd-nav {
     display: flex;
     flex-direction: column;
-     gap: 10px; 
-}
-
-.endd-nav :hover {
-    color: rgb(28, 214, 214);
+    gap: 10px; 
 }
 
 .end-navv {
@@ -331,13 +259,17 @@ height: 10px;
     gap: 10px;
 }
 
+.endd-nav :hover {
+    color: rgb(28, 214, 214);
+}
+
 .end-navv :hover {
     color: rgb(28, 214, 214);
 }
 
 .end-img {
     margin-top: 20px;
-        display: flex;
+    display: flex;
     gap: 10px;
 }
 
@@ -353,3 +285,4 @@ height: 10px;
     display: flex;
     gap: 5px;
 }
+
