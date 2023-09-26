@@ -172,8 +172,8 @@ background: inherit;
     background-color: black;
     font-size: 72px;
     display: flex;
-    flex-wrap: wrap
-   
+    flex-wrap: wrap;
+    margin-right: 228px;
 }
 
 .email-btn {
