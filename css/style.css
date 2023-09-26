@@ -52,6 +52,7 @@ background: inherit;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .promo {
@@ -166,6 +167,8 @@ background: inherit;
     border-radius: 32px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .email-sub {
@@ -173,7 +176,9 @@ background: inherit;
     font-size: 72px;
     display: flex;
     flex-wrap: wrap;
-    margin-right: 228px;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 431px;
 }
 
 .email-btn {
