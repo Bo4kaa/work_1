@@ -51,7 +51,7 @@ span {
 
 .header {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
 
 .header-nav{
