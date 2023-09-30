@@ -30,9 +30,23 @@ svg {
 background: inherit;    
 }
 
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header {
+    position: fixed;
     display: flex;
     justify-content: space-between ;
+    padding: 20px 30px;
+    top: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: .9;
+    z-index: 20;
 }
 
 .header-nav{
@@ -289,4 +303,18 @@ background: inherit;
 .block-text-ul {
     display: flex;
     gap: 5px;
+}
+
+.level-title {
+    position: relative;
+}
+
+.level-title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img//line.svg');
 }
