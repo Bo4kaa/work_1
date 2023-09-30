@@ -49,23 +49,9 @@ span {
     background-image: url('../img//line.svg');
 }
 
-body {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .header {
-    position: fixed;
     display: flex;
     justify-content: space-between ;
-    padding: 20px 30px;
-    top: 0;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    opacity: .9;
-    z-index: 20;
 }
 
 .header-nav{
