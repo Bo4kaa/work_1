@@ -27,7 +27,25 @@ p {
 }
 
 svg {
-background: inherit;    
+    background: inherit;    
+}
+
+span {
+        font-weight: 700;
+}
+
+.level-title {
+    position: relative;
+}
+
+.level-title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img//line.svg');
 }
 
 .header {
