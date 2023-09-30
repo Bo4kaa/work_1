@@ -30,6 +30,16 @@ svg {
 background: inherit;    
 }
 
+span {
+font-weight: 700;
+}
+
+.line_svg {
+    width: 130px;
+    position: relative;
+    bottom: 45px;
+}
+
 .header {
     display: flex;
     justify-content: space-between ;
