@@ -246,6 +246,7 @@ span {
     padding: 62px;
     border-radius: 32px;
     height: 300px;
+    overflow: overlay;
 }
 
 .container-grid {
