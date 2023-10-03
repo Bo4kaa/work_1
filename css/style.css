@@ -264,7 +264,7 @@ body {
     overflow: overlay;
 }
 
-.container-grid {
+.container-comments {
     display: grid;
     grid-template-columns: repeat(3, minmax(auto, 1fr));
     gap: 20px;
