@@ -110,7 +110,7 @@ body {
     gap: 10px;
 }
 
-.container-mini-boss {
+.container-info {
     display: flex;
     flex-direction: column;
     row-gap: 40px;
@@ -130,7 +130,7 @@ body {
     max-width: 178px;
 }
 
-.btnn {
+.btn-info {
     background-color: #363F46;
     border-radius: 8px;
     line-height: 0.5;
@@ -170,7 +170,7 @@ body {
     flex-direction: column;
 }
 
-.ep {
+.episode {
     color: rgb(18, 138, 138); 
     font-size: 17px;
 }
@@ -182,7 +182,7 @@ body {
     row-gap: 40px;
 }
 
-.bbb {
+.btn-content {
     color: rgb(18, 138, 138); 
     display: flex;
     justify-content: flex-start;
@@ -242,7 +242,7 @@ body {
     width: 522px;
 }
 
-.btn-s {
+.submit {
     background-color: rgb(8, 144, 144);
     border-radius: 8px;
     line-height: 1.33;
@@ -272,37 +272,27 @@ body {
     margin: 0 auto;
 }
 
-.nick-niggers {
+.user-name {
     display: flex;
     justify-content: flex-start;
     margin-top: 20px
 }
 
-.end {
+.footer {
     row-gap: 40px;
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
 }
 
-.endd-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 10px; 
-}
-
-.end-navv {
+.footer-nav {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
 
-.endd-nav :hover {
-    color: rgb(28, 214, 214);
-}
-
-.end-navv :hover {
+.footer-nav :hover {
     color: rgb(28, 214, 214);
 }
 
@@ -310,10 +300,6 @@ body {
     margin-top: 20px;
     display: flex;
     gap: 10px;
-}
-
-.cast {
-    font-size: 48px;
 }
 
 .block-text ul img {
