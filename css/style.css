@@ -283,6 +283,8 @@ body {
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 116px;
 }
 
 .footer-nav {
