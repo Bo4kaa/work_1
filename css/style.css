@@ -113,7 +113,7 @@ body {
     row-gap: 40px;
 }
 
-.header-button{
+.properties__inner {
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -136,7 +136,7 @@ body {
     height: 29px;
 }
 
-.sub-title {
+.info__text-inner episodes {
     background-color: black;
     padding: 0 10px;
     font-size: 60px;
@@ -167,7 +167,7 @@ body {
     flex-direction: column;
 }
 
-.episode {
+.episodes__inner {
     color: rgb(18, 138, 138); 
     font-size: 17px;
 }
