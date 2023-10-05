@@ -1,0 +1,68 @@
+@media (max-width: 1280px) {
+    body{
+        max-width: 970px;
+        background-color: aqua;
+    }
+    header{
+        max-width: 970px;
+    }
+   h1{
+        font-size: 50px;
+   }
+   h2 {
+        font-size: 40px;
+   }
+   #container-comments {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .promo__img{
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    body{
+        max-width: 760px;
+        background-color: aqua;
+    }
+    header{
+        max-width: 760px;
+    }
+   h1{
+        font-size: 45px;
+   }
+   h2 {
+        font-size: 20px;
+   }
+
+   h3 {
+    font-size: 25px;
+   }
+
+   p{
+    font-size: 15px;
+   }
+  
+   .info__img{
+    max-width: 35%;
+   }
+
+   .info__text {
+    row-gap: 15px;
+   }
+
+   #container-comments {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .promo__img{
+        max-width: 50%;
+    }
+
+    .name {
+        width: 400px;
+    }
+
+    .email {
+        width: 400px;
+    }
+}
