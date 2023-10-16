@@ -41,6 +41,8 @@ body {
     flex-direction: column;
 }
 
+
+
 .level-title {
     position: relative;
 }
@@ -227,16 +229,14 @@ body {
     background-color: rgb(47, 46, 50);
     padding: 20px;
     border-radius: 12px;
-    margin: 0 auto;
-    width: 522px;
+    max-width: 522px;
 }
 
 .email {
     background-color: rgb(47, 46, 50);
     padding: 20px;
     border-radius: 12px;
-    margin: 0 auto;
-    width: 522px;
+    max-width: 522px;
 }
 
 .submit {
@@ -257,7 +257,6 @@ body {
     background-color: black;
     padding: 62px;
     border-radius: 32px;
-    height: 300px;
     overflow: overlay;
 }
 
