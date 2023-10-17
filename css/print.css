@@ -29,10 +29,10 @@
     color: black;
    }
 
-   /* body{
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-   } */
+   .logo {
+    display: block !important;
+    fill: black !important;
+   }
 
    .info {
         gap: 15px;
