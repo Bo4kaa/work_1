@@ -4,14 +4,35 @@
     margin: 0 0;
    }
 
-   h1,h2,h3{
-    font-size: 40px;
+   main{
+    margin: 0 0;
    }
 
-   body{
+   h1,h2,h3{
+    font-size: 40px;
+    color: black;
+   }
+
+   a{
+    color: black;
+   }
+
+   p{
+    color: black;
+   }
+
+   span{
+    color: black;
+   }
+
+   .episodes__inner{
+    color: black;
+   }
+
+   /* body{
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
-   }
+   } */
 
    .info {
         gap: 15px;
@@ -25,16 +46,26 @@
         row-gap: 10px;
     }
 
-   .properties__inner {
-    page-break-before: always;   
-    }
+   
 
     .info__img{
         width: 30%;
     }
 
-   .img-arrow {
-    page-break-before: always;
+    .container.promo{
+        display: none !important;
+    }
+
+    .email-block{
+        display: none !important;
+    }
+
+    button {
+        display: none !important;
+    }
+
+   img {
+    display: none !important;
    }
   
    header{
