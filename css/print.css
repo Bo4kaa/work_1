@@ -1,0 +1,55 @@
+@media print {
+   @page{
+    margin: 1cm;
+    margin: 0 0;
+   }
+
+   h1,h2,h3{
+    font-size: 40px;
+   }
+
+   body{
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+   }
+
+   .info {
+        gap: 15px;
+    }
+
+    .info__text {
+        row-gap: 10px;
+    }
+
+    .info__text-inner {
+        row-gap: 10px;
+    }
+
+   .properties__inner {
+    page-break-before: always;   
+    }
+
+    .info__img{
+        width: 30%;
+    }
+
+   .img-arrow {
+    page-break-before: always;
+   }
+  
+   header{
+    position: relative !important;
+   }
+   
+   title {
+    display: none !important;
+   }
+
+   .footer{
+    margin-top: 70px;
+    margin-bottom:50px ;
+    }
+    
+
+   
+}
