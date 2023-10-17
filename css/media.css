@@ -2,51 +2,27 @@
 .promo {
     flex-direction: column;
 }
-h1 {
-    font-size: 50px;
-}
-
-h2 {
-    font-size: 40px;
-}
 
 .promo__img {
 max-width: 60%;
 }
-
-
 
 .container__portfolio {
 flex-direction: column;
 align-items: center;
 display: flex;
 }
-
-
 }
 
 @media screen and (max-width: 1024px){
     .promo {
         flex-direction: column;
     }
-    
-    h3 {
-        font-size: 26px;
-    }
-    
 }
-
 
 @media screen and (max-width: 768px){
     .promo {
         flex-direction: column;
-    }
-    h1 {
-        font-size: 35px;
-    }
-
-    p {
-        font-size: 18px;
     }
 
     img {
@@ -112,19 +88,7 @@ display: flex;
     svg {
         max-width: 20%;
     }
-
-    p {
-        font-size: 16px;
-    }
     
-    h1 {
-        font-size: 25px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
     .info__img {
         border-radius: 8px;
         max-width: 50%;
