@@ -101,4 +101,9 @@ display: flex;
     .footer{
         gap: 20px;
     }
+    .piderast {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }    

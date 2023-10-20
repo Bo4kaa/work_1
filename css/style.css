@@ -128,7 +128,19 @@ body {
     line-height: 1.33;
     padding: 10px;
     max-width: 178px;
+    transition: all 0.3s;
+
 }
+
+.btn:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.btn:focus {
+    border: #fff solid 1px;
+}
+
 
 .info__genre {
     background-color: #363F46;
@@ -214,7 +226,7 @@ body {
     max-width: 431px;
 }
 
-.email-btn {
+.email-span {
     color: rgb(18, 138, 138); 
     font-size: 18px;
 }
@@ -224,20 +236,27 @@ body {
     flex-direction: column;
     row-gap: 16px;
     background-color: black;
+    width: 100%;
+    max-width: 522px;
 }
 
 .name {
     background-color: rgb(47, 46, 50);
     padding: 20px;
     border-radius: 12px;
-    max-width: 522px;
 }
 
 .email {
     background-color: rgb(47, 46, 50);
     padding: 20px;
     border-radius: 12px;
-    max-width: 522px;
+}
+
+.name:focus, 
+.email:focus {
+    outline: 1px solid rgb(8, 144, 144);
+    background-color: #fff;
+    transition: 0.3s outline ease, 0.1s background-color ease;
 }
 
 .submit {
@@ -246,6 +265,15 @@ body {
     line-height: 1.33;
     padding: 10px;
     max-width: 74px;
+}
+
+.submit:hover{
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.submit:focus{
+    border: #fff solid 1px;
 }
 
 .container-blocks {
@@ -270,9 +298,11 @@ body {
 }
 
 .user-name {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 20px
+    background: black;
+}
+
+.user-name:hover  {
+    color: rgb(28, 214, 214);
 }
 
 .footer {
