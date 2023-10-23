@@ -1,6 +1,7 @@
 *{ font-family: 'DM Sans', sans-serif;
     color: #fff;
     background-color: #191919;
+    scroll-behavior: smooth;
 }
 
 main {
@@ -127,7 +128,7 @@ body {
     border-radius: 8px;
     line-height: 1.33;
     padding: 10px;
-    max-width: 178px;
+    max-width: fit-content;
     transition: all 0.3s;
 
 }
@@ -205,6 +206,30 @@ body {
     width: fit-content;
 }
 
+.arrow__meet-sub-title {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+
+.arrow__meet_cc{
+    position: relative;
+    height: 130px;
+}
+
+.arrow__meet_cc::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url("../img/arrow.png");
+    width: 112px;
+    height: 112px;
+}
+
+
 .email-block {
     row-gap: 40px;
     background-color: black;
@@ -240,40 +265,18 @@ body {
     max-width: 522px;
 }
 
-.name {
+
+
+input {
     background-color: rgb(47, 46, 50);
     padding: 20px;
     border-radius: 12px;
 }
 
-.email {
-    background-color: rgb(47, 46, 50);
-    padding: 20px;
-    border-radius: 12px;
-}
-
-.name:focus, 
-.email:focus {
+input:focus {
     outline: 1px solid rgb(8, 144, 144);
     background-color: #fff;
     transition: 0.3s outline ease, 0.1s background-color ease;
-}
-
-.submit {
-    background-color: rgb(8, 144, 144);
-    border-radius: 8px;
-    line-height: 1.33;
-    padding: 10px;
-    max-width: 74px;
-}
-
-.submit:hover{
-    opacity: 0.8;
-    transition: all 0.3s;
-}
-
-.submit:focus{
-    border: #fff solid 1px;
 }
 
 .container-blocks {
