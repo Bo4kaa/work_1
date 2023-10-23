@@ -31,6 +31,20 @@ ul {
     background: inherit;
 }
 
+input {
+    background-color: rgb(88, 87, 93);
+    padding: 20px;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input:focus {
+    outline: 1px solid rgb(8, 144, 144);
+    background-color: #fff;
+    transition: 0.3s outline ease, 0.1s background-color ease;
+}
+
 *,
 *::before,
 *::after {
@@ -78,7 +92,7 @@ address {
 
 /* Form */
 
-input, textarea, button, select {
+ textarea, button, select {
 	font-family: inherit;
     font-size: inherit;
     color: inherit;

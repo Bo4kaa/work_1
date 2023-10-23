@@ -142,7 +142,6 @@ body {
     border: #fff solid 1px;
 }
 
-
 .info__genre {
     background-color: #363F46;
     border-radius: 8px;
@@ -263,20 +262,6 @@ body {
     background-color: black;
     width: 100%;
     max-width: 522px;
-}
-
-
-
-input {
-    background-color: rgb(47, 46, 50);
-    padding: 20px;
-    border-radius: 12px;
-}
-
-input:focus {
-    outline: 1px solid rgb(8, 144, 144);
-    background-color: #fff;
-    transition: 0.3s outline ease, 0.1s background-color ease;
 }
 
 .container-blocks {
