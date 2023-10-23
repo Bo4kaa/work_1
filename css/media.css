@@ -77,6 +77,16 @@ display: flex;
 
 
 @media screen and (max-width: 640px){
+
+    main{
+        gap: 48px;
+        margin-top: 64px;
+    }
+
+    .footer{
+        margin-top: 64px;
+    }
+
     .promo {
         flex-direction: column;
     }
@@ -86,7 +96,7 @@ display: flex;
     }
 
     svg {
-        max-width: 20%;
+        max-width: 46%;
     }
     
     .info__img {
@@ -100,5 +110,28 @@ display: flex;
 
     .footer{
         gap: 20px;
+        padding: 20px;
     }
+    .media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .arrow__meet_cc{
+        height: 62px;
+    }
+
+    .arrow__meet_cc::before{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-image: url("../img/arrow.png");
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: cover;
+        width: 40px;
+        height: 40px;
+    }
+    
 }    
