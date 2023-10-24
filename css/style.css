@@ -1,7 +1,15 @@
 *{ font-family: 'DM Sans', sans-serif;
-    color: #fff;
-    background-color: #191919;
+    color: var(--color3);
+    background-color: var(--color5);
     scroll-behavior: smooth;
+}
+
+:root{
+    --color1:rgba(0, 255, 255, 0.6);
+    --color2:black;
+    --color3:#fff;
+    --color4:#363F46;
+    --color5:#191919;
 }
 
 main {
@@ -73,7 +81,7 @@ body {
 }
 
 .header-nav{
-    color:#fff;
+    color:var(--color3);
     display: flex;
     justify-content: space-between;
     font-size: 13px;
@@ -81,7 +89,7 @@ body {
 }
 
 .header-link:hover  {
-    color: rgb(28, 214, 214);
+    color:var(--color1);
 }
 
 .container {
@@ -124,7 +132,7 @@ body {
 }
 
 .btn {
-    background-color: rgb(8, 144, 144);
+    background-color: var(--color1);
     border-radius: 8px;
     line-height: 1.33;
     padding: 10px;
@@ -139,11 +147,11 @@ body {
 }
 
 .btn:focus {
-    border: #fff solid 1px;
+    border: var(--color2) solid 1px;
 }
 
 .info__genre {
-    background-color: #363F46;
+    background-color: var(--color4);
     border-radius: 8px;
     line-height: 0.5;
     padding: 10px;
@@ -152,14 +160,14 @@ body {
 }
 
 .info__text-inner episodes {
-    background-color: black;
+    background-color: var(--color2);
     padding: 0 10px;
     font-size: 60px;
     flex:0 0 55%
 }
 
 .info {
-    background-color: black;
+    background-color: var(--color2);
     display: flex;
     gap: 54px;
     align-items: flex-start;
@@ -183,7 +191,7 @@ body {
 }
 
 .episodes__inner {
-    color: rgb(18, 138, 138); 
+    color: var(--color1);
     font-size: 17px;
 }
 
@@ -195,7 +203,7 @@ body {
 }
 
 .btn-portfolio {
-    color: rgb(18, 138, 138); 
+    color: var(--color1);
     display: flex;
     justify-content: flex-start;
     font-size: 15px;
@@ -209,7 +217,7 @@ body {
     width: 112px;
     height: 112px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: var(--color1);
 }
 
 
@@ -231,7 +239,7 @@ body {
 
 .email-block {
     row-gap: 40px;
-    background-color: black;
+    background-color: var(--color2);
     padding: 40px;
     border-radius: 32px;
     display: flex;
@@ -241,7 +249,7 @@ body {
 }
 
 .email-sub {
-    background-color: black;
+    background-color: var(--color2);
     font-size: 72px;
     display: flex;
     flex-wrap: wrap;
@@ -251,7 +259,7 @@ body {
 }
 
 .email-span {
-    color: rgb(18, 138, 138); 
+    color:var(--color1);
     font-size: 18px;
 }
 
@@ -259,7 +267,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    background-color: black;
+    background-color: var(--color2);
     width: 100%;
     max-width: 522px;
 }
@@ -271,7 +279,7 @@ body {
 .block-text {
     max-width: 470px;
     row-gap: 40px;
-    background-color: black;
+    background-color: var(--color2);
     padding: 62px;
     border-radius: 32px;
     overflow: overlay;
@@ -286,11 +294,11 @@ body {
 }
 
 .user-name {
-    background: black;
+    background: var(--color2);
 }
 
 .user-name:hover  {
-    color: rgb(28, 214, 214);
+    color:var(--color1);
 }
 
 .footer {
@@ -310,7 +318,7 @@ body {
 }
 
 .footer__nav :hover {
-    color: rgb(28, 214, 214);
+    color: var(--color1);
 }
 
 .end-img {
@@ -320,7 +328,7 @@ body {
 }
 
 .block-text ul img {
-    background-color: black ;
+    background-color:var(--color2);
 }
 
 .block-text-ul {
