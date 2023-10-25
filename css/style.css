@@ -1,7 +1,15 @@
 *{ font-family: 'DM Sans', sans-serif;
-    color: #fff;
-    background-color: #191919;
+    color: var(--color-text);
+    background-color: var(--backround-color);
     scroll-behavior: smooth;
+}
+
+:root{
+    --color-btn-hover:rgba(0, 255, 255, 0.6);
+    --backround-color-block:black;
+    --color-text:#fff;
+    --backround-color-genre:#363F46;
+    --backround-color:#191919;
 }
 
 main {
@@ -33,7 +41,7 @@ svg {
 }
 
 span {
-        font-weight: 700;
+    font-weight: 700;
 }
 
 body {
@@ -73,7 +81,6 @@ body {
 }
 
 .header-nav{
-    color:#fff;
     display: flex;
     justify-content: space-between;
     font-size: 13px;
@@ -81,7 +88,7 @@ body {
 }
 
 .header-link:hover  {
-    color: rgb(28, 214, 214);
+    color:var(--color-btn-hover);
 }
 
 .container {
@@ -124,7 +131,7 @@ body {
 }
 
 .btn {
-    background-color: rgb(8, 144, 144);
+    background-color: var(--color-btn-hover);
     border-radius: 8px;
     line-height: 1.33;
     padding: 10px;
@@ -139,11 +146,11 @@ body {
 }
 
 .btn:focus {
-    border: #fff solid 1px;
+    border: var(--backround-color-block) solid 1px;
 }
 
 .info__genre {
-    background-color: #363F46;
+    background-color: var(--backround-color-genre);
     border-radius: 8px;
     line-height: 0.5;
     padding: 10px;
@@ -152,14 +159,14 @@ body {
 }
 
 .info__text-inner episodes {
-    background-color: black;
+    background-color: var(--backround-color-block);
     padding: 0 10px;
     font-size: 60px;
     flex:0 0 55%
 }
 
 .info {
-    background-color: black;
+    background-color: var(--backround-color-block);
     display: flex;
     gap: 54px;
     align-items: flex-start;
@@ -183,7 +190,7 @@ body {
 }
 
 .episodes__inner {
-    color: rgb(18, 138, 138); 
+    color: var(--color-btn-hover);
     font-size: 17px;
 }
 
@@ -195,7 +202,7 @@ body {
 }
 
 .btn-portfolio {
-    color: rgb(18, 138, 138); 
+    color: var(--color-btn-hover);
     display: flex;
     justify-content: flex-start;
     font-size: 15px;
@@ -209,7 +216,7 @@ body {
     width: 112px;
     height: 112px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: var(--color-btn-hover);
 }
 
 
@@ -231,7 +238,7 @@ body {
 
 .email-block {
     row-gap: 40px;
-    background-color: black;
+    background-color: var(--backround-color-block);
     padding: 40px;
     border-radius: 32px;
     display: flex;
@@ -241,7 +248,7 @@ body {
 }
 
 .email-sub {
-    background-color: black;
+    background-color: var(--backround-color-block);
     font-size: 72px;
     display: flex;
     flex-wrap: wrap;
@@ -251,7 +258,7 @@ body {
 }
 
 .email-span {
-    color: rgb(18, 138, 138); 
+    color:var(--color-btn-hover);
     font-size: 18px;
 }
 
@@ -259,7 +266,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    background-color: black;
+    background-color: var(--backround-color-block);
     width: 100%;
     max-width: 522px;
 }
@@ -271,7 +278,7 @@ body {
 .block-text {
     max-width: 470px;
     row-gap: 40px;
-    background-color: black;
+    background-color: var(--backround-color-block);
     padding: 62px;
     border-radius: 32px;
     overflow: overlay;
@@ -286,11 +293,11 @@ body {
 }
 
 .user-name {
-    background: black;
+    background: var(--backround-color-block);
 }
 
 .user-name:hover  {
-    color: rgb(28, 214, 214);
+    color:var(--color-btn-hover);
 }
 
 .footer {
@@ -310,7 +317,7 @@ body {
 }
 
 .footer__nav :hover {
-    color: rgb(28, 214, 214);
+    color: var(--color-btn-hover);
 }
 
 .end-img {
@@ -320,7 +327,7 @@ body {
 }
 
 .block-text ul img {
-    background-color: black ;
+    background-color:var(--backround-color-block);
 }
 
 .block-text-ul {
