@@ -126,9 +126,9 @@
                     <h1>Subscribe for updates</h1>
                 </div>
                 <form class="form" aria-label="Контактная информация">
-                    <input type="text" aria-label="Введите свое имя" placeholder="Name">
+                    <input class="input__name" type="text" aria-label="Введите свое имя" placeholder="Name">
                     <input type="email" placeholder="Email">
-                    <button class="btn" type="submit">Submit</button>
+                    <button class="btn" id="btn" type="submit">Submit</button>
                 </form>
             </div>
         </div>
@@ -256,5 +256,25 @@
             </ul>
         </div>
     </footer>
+    <div class="modalBackground">
+        <div class="modalActive">
+            <div class="modalText">
+                <div class="modalSubText">
+                <h3 class="modal__name">'твойНИК' oставьте свой комментарий</h3>
+                </div>
+                <div class="mobalInput">
+                    <input id="input__comment" type="text" aria-label="Оставьте комментарий" placeholder="comment">
+                </div>
+                <div class="modalBtn">
+                    <button class="btn" id="btn__comment">отправить</button>
+                </div>
+            </div>
+            <div class="closeModal"></div>
+
+            </div>
+            <div class="modalWindow"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
     </body>
 </html>

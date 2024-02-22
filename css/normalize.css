@@ -33,15 +33,16 @@ ul {
 
 input {
     background-color: rgb(88, 87, 93);
-    padding: 20px;
+    padding: 22px;
     border-radius: 12px;
     font-family: inherit;
     font-size: inherit;
+    width: 100%;
 }
 
 input:focus {
     outline: 1px solid rgb(8, 144, 144);
-    background-color: #fff;
+    background-color: #696666;
     transition: 0.3s outline ease, 0.1s background-color ease;
 }
 
